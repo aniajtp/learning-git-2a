@@ -11,7 +11,11 @@ body{
 }
 .title h1 {
   font-size: 50px;
+<<<<<<< HEAD
   color: rgb(12, 160, 25);
+=======
+  color: rgb(180, 114, 39);
+>>>>>>> tomek
   line-height: 0;
   padding: 40px 40px 15px 40px;
   margin: 30px 50px 0 50px;
@@ -72,7 +76,7 @@ footer {
   font-size: 17px;
   margin: 10px; 
   padding: 10px;
-  color: rgb(27, 70, 42);
+  color: rgb(9, 12, 12);
   font-weight: bold;
 }
 .ania {
