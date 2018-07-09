@@ -5,15 +5,17 @@
   "main": "index.js",
   "dependencies": {
     "autoprefixer-cli": "^1.0.0",
-    "browser-sync": "^2.24.5",
+    "globstar": "^1.0.0",
     "nu-html-checker": "^0.1.0"
   },
   "devDependencies": {
-    "globstar": "^1.0.0"
+    "browser-sync": "^2.24.5",
+    "onchange": "^4.0.0"
   },
   "scripts": {
     "test": "npm run test:html",
-    "test:html": "globstar nu-html-checker *.html"
+    "test:html": "globstar nu-html-checker *.html",
+    "init-project": "mkdir sass css vendor images js && touch README.md index.html sass/style.scss js/script.js && curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore"
   },
   "repository": {
     "type": "git",
